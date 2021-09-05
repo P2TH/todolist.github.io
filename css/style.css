@@ -1,0 +1,164 @@
+.hidden {
+  display: none;
+}
+
+.inner {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+
+body {
+  margin: 0px;
+}
+
+element.style {
+  height: 1920px;
+  width: 1080px;
+}
+
+.fullscreen {
+  background-size : cover;
+  width: 1920px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 700px;
+	height: 500px;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#clock {
+  position: absolute;
+     top:20%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:7rem;
+     color: white;
+     z-index: 1;
+     text-align: center;
+}
+
+/*.greet {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+
+  width: 300px;
+	height: 42px;
+
+  font-size: 40px;
+
+  order:1
+}*/
+
+.greet {
+  position: absolute;
+     top: 10%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:50px;
+     color: white;
+     z-index: 1;
+     text-align: center;
+}
+
+.container {
+	flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.todo {
+  position: absolute;
+     top:60%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:25;
+     color: black;
+     z-index: 1;
+     text-align: center;
+}
+
+.write {
+  position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:30px;
+     color: black;
+     z-index: 1;
+     text-align: center;
+}
+
+.tform {
+  position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:30px;
+     color: white;
+     z-index: 1;
+     text-align: center;
+}
+
+.quote {
+  position: absolute;
+     top:95%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:15px;
+     color: white;
+     z-index: 2;
+     text-align: center;
+}
+
+.qname {
+  position: absolute;
+     top:97%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:15px;
+     color: white;
+     z-index: 2;
+     text-align: center;
+}
+
+.weather {
+  position: absolute;
+     top:5%;
+     left:5%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:15px;
+     color: white;
+     z-index: 2;
+     text-align: center;
+}
+
+.city {
+  position: absolute;
+     top:7.5%;
+     left:5%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:15px;
+     color: white;
+     z-index: 2;
+     text-align: center;
+}
+
+.lform {
+  position: absolute;
+     top: 10%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:40px;
+     color: white;
+     z-index: 1;
+     text-align: center;
+}
