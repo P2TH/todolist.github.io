@@ -108,7 +108,7 @@ element.style {
 
 .qname {
   position: absolute;
-     top:98%;
+     top:97%;
      left:50%;
      transform: translate(-50%, -50%);                                                                   
      font-size:15px;
@@ -130,8 +130,8 @@ element.style {
 
 .city {
   position: absolute;
-     top:5%;
-     left:25%;
+     top:8%;
+     left:10%;
      transform: translate(-50%, -50%);                                                                   
      font-size:15px;
      color: white;
